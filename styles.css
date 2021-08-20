@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: black;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: orange;
+}
+
+.score{
+  position:fixed;
+  top:10px;
+  left:30px;
+}
+
+canvas{
+  background-color: pink;
+}
